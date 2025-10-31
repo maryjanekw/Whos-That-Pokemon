@@ -7,7 +7,7 @@ public class ChallengeMode extends Question{
         super(pokemon);
     }
 
-    // Quiz time - prompt for challenge mode
+    // Quiz time - quiz prompt
     @Override
     protected String generatePrompt(){
         return "Who's that Pokemon?\n" + pokemon.getDexEntry();
