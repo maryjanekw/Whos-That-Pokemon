@@ -10,6 +10,7 @@ public class CsvReader {
 
     private static final String fileName = "pokedex.csv";
 
+    // CSV File reader
     public List<Pokemon> getAllPokemon() {
         List<Pokemon> pokedex = new ArrayList<>();
         try (BufferedReader read = new BufferedReader(new FileReader(fileName))) {
