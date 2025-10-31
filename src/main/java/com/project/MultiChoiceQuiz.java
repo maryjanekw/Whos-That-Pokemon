@@ -21,6 +21,7 @@ public class MultiChoiceQuiz extends Question{
         return "Who's that Pokemon?\n" + pokemon.getDexEntry();
     }
 
+    // generates correct answer + 3 random
     private List<String>generateChoices(Pokemon correct, List<Pokemon> pokedex){
         List<String> options = new ArrayList<>();
         options.add(correct.getPokemonName()); // gathers correct answer first
